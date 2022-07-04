@@ -8,12 +8,12 @@ const Nav = (props) => {
                         
                         <ul className="navbar-nav flex-row">
                             <li>
-                            <a className="navbar-brand font-weight-bold" href="/">Textutils</a>
+                            <a className="navbar-brand font-weight-bold" href="#">Textutils</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link " href="/">Home</a>
+                                <a className="nav-link " href="#">Home</a>
                             </li>
-                            <li className="nav-item ml-2">
+                            <li className="nav-item ml-3">
                                 <a className="nav-link" href="https://www.facebook.com/shovon.ahmed.17">About</a>
                             </li>
                         </ul>
