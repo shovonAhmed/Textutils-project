@@ -26,7 +26,7 @@ const Textutils = (props) => {
                 <textarea className='form-control' style={{backgroundColor: props.mode==='dark' ? '#13466e' : 'white', color: props.mode==='dark' ? 'white' : 'black'}} value={text} onChange={handleOnChange} id="exampleFormControlTextarea1" rows="8"></textarea>
             </div>
             <div className='mb-4'>
-                <button disabled={text.length===0} className="btn btn-primary" onClick={handleUp}>Upper case</button>
+                <button disabled={text.length===0} className="btn btn-primary mb-3" onClick={handleUp}>Upper case</button>
                 <button disabled={text.length===0} className="btn btn-primary mx-3" onClick={handleLower}>Lower case</button>
                 <button disabled={text.length===0} className="btn btn-primary" onClick={handleCopy}>Copy</button>
                 <button disabled={text.length===0} className="btn btn-primary mx-3" onClick={handleClear}>Clear</button>
